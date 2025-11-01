@@ -2,13 +2,13 @@
 
 // --- CONFIGURATION ---
 // !! REPLACE with your Bot Token from @BotFather
-define('BOT_TOKEN', '8360821389:AAEtDCZy34kym_iqIuysH8B9qp7PtCyCCqM');
+define('BOT_TOKEN', 'YOUR BOT TOKEN');
 define('TELEGRAM_API_URL', 'https://api.telegram.org/bot' . BOT_TOKEN . '/');
 
 // -- Database Credentials --
 // !! REPLACE with your MySQL database details
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'telegram_bot_db');
+define('DB_NAME', 'YOUR DATABASE NAME');
 define('DB_USER', 'root');
 define('DB_PASS', ''); // e.g., 'your_password'
 
@@ -247,4 +247,5 @@ try {
     if ($chat_id_on_error) {
         sendMessage($chat_id_on_error, "An error occurred. Please try again.");
     }
+
 }
